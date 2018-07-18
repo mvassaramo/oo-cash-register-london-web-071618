@@ -8,6 +8,7 @@ class CashRegister
   end
   
   def discount= (discount = nil)
+    @discount = discount
   end 
   
 end 
