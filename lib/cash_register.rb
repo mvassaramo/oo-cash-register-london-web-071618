@@ -9,8 +9,6 @@ class CashRegister
   
   end
   
-  def discount= (amount)
-    @discount = amount
-  end 
+
   
 end 
