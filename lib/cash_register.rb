@@ -7,8 +7,5 @@ class CashRegister
     @discount
   end
   
-  def discount= (discount)
-    @discount = discount
-  end
   
 end 
