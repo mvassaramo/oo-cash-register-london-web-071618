@@ -20,7 +20,7 @@ class CashRegister
       return "There is no discount to apply."
     else 
      "After the discount, the total comes to $#{@total.to_i}."
-   
+    end 
   end
   
   
