@@ -27,7 +27,7 @@ class CashRegister
   end
   
   def items 
-    
+    ALL_ITEMS
   end 
   
   
