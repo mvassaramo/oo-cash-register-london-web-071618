@@ -4,6 +4,7 @@ class CashRegister
   
   attr_accessor :discount, :total, :quantity
   
+  ALL_ITEMS = []
 
   
   def initialize(discount= 0)
@@ -25,7 +26,7 @@ class CashRegister
   end
   
   def items 
-    self.add_item
+    
   end 
   
   
