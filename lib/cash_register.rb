@@ -6,10 +6,6 @@ class CashRegister
     @discount=discount
     @total = 0
   end
-  
-  def total= (total)
-    @total = total 
-  end 
 
   
   
