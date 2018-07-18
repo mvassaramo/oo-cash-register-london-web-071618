@@ -13,7 +13,7 @@ class CashRegister
   end 
   
   def apply_discount 
-    @discount.class.float * @total.class.float
+    @discount * @total.class.float
   end
   
   
