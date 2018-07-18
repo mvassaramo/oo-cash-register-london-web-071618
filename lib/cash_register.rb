@@ -4,7 +4,7 @@ class CashRegister
   
   def initialize(total=0)
     @total = total
-    @discount = discount
+    @discount 
   end
   
   def discount= (discount = nil)
